@@ -3,13 +3,9 @@
 }
 
 #logo{
-	    height: 75px;
-	    width: 75px;
-	    position: absolute;
-	    vertical-align: 60vh;
-	    left: 3vh;
-	    top: 75vh;
-	    border-color: white;
+	    height: 20vh;
+	    width: 20vh;
+	    float: left;
 	    }
 #style2 {
         height:50vh;
@@ -24,23 +20,27 @@ header {
 	    text-shadow: 2px 2px 8px #FF8F80;	
 	    font-family: "Arial Black", Gadget, sans-serif;
 	    text-align: center;
-      }
-div {
+       }
+div    {
         background-color: black;
         color: grey;
         text-align: center;
         height: 5vh;
         width: 100%;
-   }
-nav {
-        height:30vh;
-        width:15vh;
-        display: inline-block;
-        line-height: 50px;  
-        float: left;
-
-    }
+       }
+nav    {
+        height:4vh;
+        width:400px;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 60vh;
+        justify-content: space-between;
+        right: 0;
+       }
 section {
+	     float: left;
+
 	    display: inline-block;
 	    float: left;
 	    margin-left: 10vh;
@@ -50,3 +50,14 @@ section {
 section> p{
 	    margin-bottom: 3vh;
           }
+a {
+		margin-right: 5vh;
+		margin-left: 5vh;
+		background-color: green;
+		text-align: bottom;
+		width: 90px;
+		border-radius:10px;
+		text-align: center;
+
+		
+}
