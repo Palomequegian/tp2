@@ -11,7 +11,11 @@
 	    top: 55vh;
 	    border-color: white;
 	    }
+#style2 {
+	    display:none;
+	    position: absolute;
 
+        }
 header {
 	    background-image: url('image4.jpg');
 	    background-size: cover;
@@ -24,21 +28,27 @@ header {
 	    font-family: "Arial Black", Gadget, sans-serif;
 	    text-align: center;
       }
-div {
+div   {
         background-color: black;
         color: grey;
         text-align: center;
         height: 5vh;
         width: 210vh;
-   }
-nav {
+       }
+nav    {
         height:5vh;
         width:15vh;
         display: inline-block;
         line-height: 50px;  
         float: left;
-
-    }
+        text-decoration: none;
+        }
+a {
+	    text-decoration: none;
+}
+#currentpage {
+        text-decoration: underline;
+             }
 section {
 	    display: inline-block;
 	    float: left;
@@ -50,8 +60,3 @@ section> p{
 	    margin-bottom: 3vh;
 
           }
-#style2 {
-	    display:none;
-	    position: absolute;
-
-        }
