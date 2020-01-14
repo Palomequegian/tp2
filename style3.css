@@ -72,3 +72,6 @@ section {
 		text-align: center;
 		box-shadow: 2px 2px black;
 	    }
+ul {
+        list-style: square;
+}
