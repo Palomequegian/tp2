@@ -37,7 +37,7 @@ nav    {
         position: absolute;
         top: 14vh;
         justify-content: space-between;
-        right: 0;
+        right: 200px;
        }
 section {
 	    float: left;
