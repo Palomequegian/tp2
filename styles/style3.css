@@ -19,12 +19,14 @@
         }
 #currentpage {
 		background-color: #b32e8e;
+		position: relative;
 	    border-radius:10px;
 	    text-align: center;
 	    width: 100px;
 	    margin-right: 5vh;
 		margin-left: 5vh;
 		text-decoration: none;
+		top: 5px;
 	       }
 .page      {
 		margin-right: 5vh;
