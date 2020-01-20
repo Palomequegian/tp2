@@ -33,7 +33,7 @@
 		margin-left: 5vh;
 		background-color: #ff44cc;
 		text-align: bottom;
-		width: 100px;
+		width: 110px;
 		border-radius:10px;
 		text-align: center;
 		text-decoration: none;
@@ -63,7 +63,7 @@ header {
 	    font-family: "Arial Black", Gadget, sans-serif;
 	    text-align: center;
        }
-div    {
+#cabecera    {
         background-color: black;
         border-radius: 10px;
         color: grey;
@@ -73,7 +73,7 @@ div    {
        }
 nav    {
         height:4vh;
-        width:100vw;
+        width:90vw;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -88,10 +88,15 @@ section {
 	    margin-top: 10px;
 	    width: 98vw;
         }
+section h1 {
+	    width: 100%;
+	    text-align: center;
+}
  p      {
 	    margin-bottom: 3vh;
 	    font-size: 1.3vw;
         }
+}
 ul {
         list-style: square;
 }
@@ -125,12 +130,98 @@ footer {
 li {
 	 margin-bottom: 7px;
 }
-dl {
+.list-titles{
+	   position: relative;
+	   left: -30px;
 	   margin-top: 30px;
 	   margin-bottom: 9px;
 	   font-weight: bold;
 	   font-size: 3vh;
+	   list-style: none;
 }
+#subrayadito {
+	   text-decoration: underline;
+}
+.listas1 {
+	   list-style: none;
+}
+
+                                      /*Registro Css*/
+main{
+	width: 80vw;
+	margin-left: 100px;
+}
+main p, h1{
+	 width: 80vw;
+}
+#datos{
+	width: 80vw;
+	border: none;
+}
+fieldset {
+	border: 0
+
+}
+#registro1 input{
+	margin-bottom: 2vh;
+	width: 25vw;
+}
+.registro2{
+	display: flex;
+	justify-content: space-around;
+	width: 40vw;
+	height: 5vh;
+    margin-bottom: 5px;
+}
+.schools{
+	width: 40vw;
+}
+#schools1{
+	display: flex;
+	flex-direction: row;
+	height: 6vh;
+	margin-bottom: 20px;
+}
+#position{
+	margin-bottom: 20px;
+}
+#position input{
+	margin-left: 40px;
+	width: 2vw;
+}
+#uniorm1{
+	display: flex;
+	flex-direction: row;
+	height: 6vh;
+	margin-bottom: 20px;
+}
+.uniform{
+	width: 40vw;
+}
+form {
+	width: 90vw;
+}
+#end {
+	position: absolute;
+	top: 190vh;
+}
+#reg{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+                                /*mapas*/
+#maps iframe{
+	display: none;
+}
+#map1:target, #map2:target, #map3:target, #map4:target, #map5:target, #map6:target{
+    display: block;
+
+    position: relative;
+}
+
+
 
 
          
